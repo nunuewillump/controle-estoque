@@ -2,7 +2,7 @@
     "name": "aliss/controle-estoque",
     "autoload": {
         "psr-4": {
-            "App:\\": "app/"
+            "App\\": "app/"
         }
     },
     "authors": [

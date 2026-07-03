@@ -14,8 +14,8 @@ class Database
         //existe para evitar múltiplas conexões com o banco de dados.
         if (self::$connection === null) {
 
-            $config = require __DIR__ . '/../config/database.php';
-
+            $config = require __DIR__ . '/../../config/database.php';
+            
             $dsn = sprintf(
                 "mysql:host=%s;dbname=%s;charset=%s",
                 $config['host'],
