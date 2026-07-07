@@ -1,0 +1,4 @@
+CREATE TABLE categoria (
+    cat_cod INT AUTO_INCREMENT PRIMARY KEY,
+    cat_nome VARCHAR(95) NOT NULL
+);
