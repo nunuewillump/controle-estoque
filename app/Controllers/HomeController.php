@@ -2,10 +2,15 @@
 
 namespace App\Controllers;
 
+use App\Core\View;
+
 class HomeController
 {
     public function index()
     {
-        echo "HomeController funcionando!";
+        View::render('home/index', [
+            'titulo' => 'Controle de estque',
+            'usuario' => 'Alisson'
+        ]);
     }
 }
